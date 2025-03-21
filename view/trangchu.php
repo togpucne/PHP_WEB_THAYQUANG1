@@ -26,13 +26,14 @@
         $sanpham = $p->getDBProducts($selectSP);
     }
     
-    if( $sanpham->num_rows <= 0){
-        echo '<p>Chưa có sản phẩm. Vui lòng quay lại sao!</p>';
-
-    }
+    
 
     if ($sanpham === false) {
         echo '<p>Không tìm thấy sản phẩm!</p>';
+    }else if( $sanpham->num_rows <= 0){
+            echo '<p>Chưa có sản phẩm. Vui lòng quay lại sao!</p>';
+    
+        
     } else {
         echo '<div class="row justify-content-start">';
         while ($row = $sanpham->fetch_assoc()) {

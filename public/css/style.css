@@ -1,6 +1,8 @@
 .inner-wrap {
   border: 1px solid black;
   margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 0px;
 }
 
 .inner-header {
@@ -65,7 +67,8 @@ border-bottom: 0px;
 /*footer*/
 .inner-footer {
   padding: 20px;
-  margin-bottom: -5px;
+  margin-bottom: 100px;
   background-color: #031519;
   color: white;
+  border-bottom: 1px solid black;
 }
