@@ -5,6 +5,7 @@
         include_once("./controller/user.php");
         $p = new User();
         $p->logInController($_POST["name"], $_POST["password"]);
+        $_SESSION['name'] = $_POST['name'];
         $_SESSION['logIn'] = true;
     }
     ?>

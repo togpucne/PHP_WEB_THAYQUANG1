@@ -17,6 +17,9 @@
                             echo '<li class="nav-item">
                                                 <a class="nav-link" href="admin.php?act=dangxuat">Đăng Xuất </a>
                                             </li>';
+                           echo '<li class="nav-item">
+                                            <a class="nav-link" href="login.php">Xin chào: '.$_SESSION['name'].'</a>
+                                        </li>';
                         } else {
                             echo '<li class="nav-item">
                             <a class="nav-link" href="index.php">Trang Chủ</a>
