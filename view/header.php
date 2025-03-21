@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Shop Judoit</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -10,6 +10,7 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS v5.2.1 -->
+     <link rel="shortcut icon" href="./public/images/Judoit.png" type="image/x-icon">
     <link
         href="./public/bootstrap/bootstrap.min.css"
         rel="stylesheet"
@@ -25,8 +26,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="inner-wrap">
-                    <header class="inner-header text-center">
+                <div class="inner-wrap" >
+                    <header class="inner-header text-center" style="background-image: url('./public/images/banner.jpg');">
                     <center><h2>SHOP JUDOIT</h2></center>
 
                     </header>
