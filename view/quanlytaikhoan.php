@@ -1,7 +1,7 @@
 
 
 
-<div class="inner-right" style="text-align: center; display: flex; flex-direction: column; padding: 0px 0px 10px 0px">
+<div class="inner-right" style="text-align: center; display: flex; flex-direction: column; align-items: center; padding: 0px 0px 10px 0px;">
                             <h1 class="text-center">Trang Quản Lý Tài Khoản</h1>
                             <?php 
                              if (!class_exists('User')) {
