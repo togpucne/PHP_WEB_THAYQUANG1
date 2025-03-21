@@ -29,27 +29,5 @@
                                                                 
                             </ul>
                         </div>
-<style>
-    .inner-section .inner-left ul{
-        padding: 0px;
-        text-align: center;
-        margin: 0px;
-        padding-bottom: 20px;
-        padding: 0px 5px;
-    }
-    .inner-section .inner-left .nav-item{
-        background-color: #EBE8DB;
-        color: white;
-        margin-bottom: 10px;
-        padding: 10px;
-        color: #B03052;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    .inner-section .inner-left .nav-item:hover{
-        background-color: #B03052;
-        color: white;
 
-    }
-</style>  
 
